@@ -1,6 +1,4 @@
 use actix_web::{dev::Server, get, web, App, HttpRequest, HttpResponse, HttpServer, Responder};
-use serde;
-use serde_json;
 use std::net::TcpListener;
 
 pub async fn run(listener: TcpListener) -> Result<Server, std::io::Error> {

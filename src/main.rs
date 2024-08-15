@@ -1,4 +1,3 @@
-use actix_web;
 use std::net::TcpListener;
 use zero2prod::run;
 
